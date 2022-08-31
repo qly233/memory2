@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\zuchengyuanli\cuncuqi_s\top_RAM_B.ncd
+OUTFILE=D:\zuchengyuanli\cuncuqi_s\top_RAM_B.bit
+FAMILY=Artix7
+PART=xc7a100t-2lfgg484
+WORKINGDIR=D:\zuchengyuanli\cuncuqi_s
+LICENSE=WebPack
+USER_INFO=__0_0_0

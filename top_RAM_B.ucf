@@ -1,0 +1,63 @@
+
+# PlanAhead Generated IO constraints 
+
+NET "an[3]" IOSTANDARD = LVCMOS18;
+NET "an[2]" IOSTANDARD = LVCMOS18;
+NET "an[1]" IOSTANDARD = LVCMOS18;
+NET "an[0]" IOSTANDARD = LVCMOS18;
+NET "C[1]" IOSTANDARD = LVCMOS18;
+NET "C[0]" IOSTANDARD = LVCMOS18;
+NET "Mem_Addr[7]" IOSTANDARD = LVCMOS18;
+NET "Mem_Addr[6]" IOSTANDARD = LVCMOS18;
+NET "Mem_Addr[5]" IOSTANDARD = LVCMOS18;
+NET "Mem_Addr[4]" IOSTANDARD = LVCMOS18;
+NET "Mem_Addr[3]" IOSTANDARD = LVCMOS18;
+NET "Mem_Addr[2]" IOSTANDARD = LVCMOS18;
+NET "seg[7]" IOSTANDARD = LVCMOS18;
+NET "seg[6]" IOSTANDARD = LVCMOS18;
+NET "seg[5]" IOSTANDARD = LVCMOS18;
+NET "seg[4]" IOSTANDARD = LVCMOS18;
+NET "seg[3]" IOSTANDARD = LVCMOS18;
+NET "seg[2]" IOSTANDARD = LVCMOS18;
+NET "seg[1]" IOSTANDARD = LVCMOS18;
+NET "seg[0]" IOSTANDARD = LVCMOS18;
+NET "C[1]" PULLDOWN;
+NET "C[0]" PULLDOWN;
+NET "Mem_Addr[7]" PULLDOWN;
+NET "Mem_Addr[6]" PULLDOWN;
+NET "Mem_Addr[5]" PULLDOWN;
+NET "Mem_Addr[4]" PULLDOWN;
+NET "Mem_Addr[3]" PULLDOWN;
+NET "Mem_Addr[2]" PULLDOWN;
+NET "Clk" IOSTANDARD = LVCMOS18;
+NET "clk_s" IOSTANDARD = LVCMOS18;
+NET "Mem_Write" IOSTANDARD = LVCMOS18;
+NET "Clk" PULLDOWN;
+NET "clk_s" PULLDOWN;
+NET "Mem_Write" PULLDOWN;
+
+# PlanAhead Generated physical constraints 
+
+NET "Clk" LOC = R4;
+NET "clk_s" LOC = H4;
+NET "an[3]" LOC = L21;
+NET "an[2]" LOC = M22;
+NET "an[1]" LOC = M21;
+NET "an[0]" LOC = N22;
+NET "C[1]" LOC = T3;
+NET "C[0]" LOC = U3;
+NET "Mem_Write" LOC = T4;
+NET "Mem_Addr[7]" LOC = V3;
+NET "Mem_Addr[6]" LOC = V4;
+NET "Mem_Addr[5]" LOC = W4;
+NET "Mem_Addr[4]" LOC = Y4;
+NET "Mem_Addr[3]" LOC = Y6;
+NET "Mem_Addr[2]" LOC = W7;
+NET "seg[7]" LOC = H19;
+NET "seg[6]" LOC = G20;
+NET "seg[5]" LOC = J22;
+NET "seg[4]" LOC = K22;
+NET "seg[3]" LOC = K21;
+NET "seg[2]" LOC = H20;
+NET "seg[1]" LOC = H22;
+NET "seg[0]" LOC = J21;

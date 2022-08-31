@@ -1,0 +1,30 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue May 24 18:49:35 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "an<0>" LOCATE = SITE "N22" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "M21" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "M22" LEVEL 1;
+COMP "Mem_Addr<2>" LOCATE = SITE "W7" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "L21" LEVEL 1;
+COMP "Mem_Addr<3>" LOCATE = SITE "Y6" LEVEL 1;
+COMP "Mem_Addr<4>" LOCATE = SITE "Y4" LEVEL 1;
+COMP "Mem_Addr<5>" LOCATE = SITE "W4" LEVEL 1;
+COMP "Mem_Addr<6>" LOCATE = SITE "V4" LEVEL 1;
+COMP "Mem_Addr<7>" LOCATE = SITE "V3" LEVEL 1;
+COMP "C<0>" LOCATE = SITE "U3" LEVEL 1;
+COMP "C<1>" LOCATE = SITE "T3" LEVEL 1;
+COMP "clk_s" LOCATE = SITE "H4" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "J21" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "H22" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "H20" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "K21" LEVEL 1;
+COMP "Mem_Write" LOCATE = SITE "T4" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "K22" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "J22" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "G20" LEVEL 1;
+COMP "seg<7>" LOCATE = SITE "H19" LEVEL 1;
+COMP "Clk" LOCATE = SITE "R4" LEVEL 1;
+SCHEMATIC END;
+

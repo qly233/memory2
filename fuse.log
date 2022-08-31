@@ -1,0 +1,22 @@
+Running: D:\ise\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/zuchengyuanli/cuncuqi1/test_isim_beh.exe -prj D:/zuchengyuanli/cuncuqi1/test_beh.prj work.test work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/zuchengyuanli/cuncuqi1/ipcore_dir/RAMB.v" into library work
+Analyzing Verilog file "D:/zuchengyuanli/cuncuqi1/test.v" into library work
+Analyzing Verilog file "D:/ise/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="artix...
+Compiling module RAMB
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 7 Verilog Units
+Built simulation executable D:/zuchengyuanli/cuncuqi1/test_isim_beh.exe
+Fuse Memory Usage: 34520 KB
+Fuse CPU Usage: 358 ms
